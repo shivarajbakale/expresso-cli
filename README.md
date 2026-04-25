@@ -1,5 +1,8 @@
 # Expresso CLI
 
+[![npm version](https://img.shields.io/npm/v/expresso-cli.svg)](https://www.npmjs.com/package/expresso-cli)
+[![CI](https://github.com/yourusername/expresso-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/yourusername/expresso-cli/actions/workflows/ci.yml)
+
 A command-line tool for scaffolding TypeScript Express applications with Prisma, SQLite, and MVC architecture. Expresso CLI helps developers kickstart their projects with a sensible default structure, including controllers, routes, services, and database integration.
 
 ## Installation
@@ -7,13 +10,13 @@ A command-line tool for scaffolding TypeScript Express applications with Prisma,
 Install the CLI globally via npm:
 
 ```bash
-npm install -g expresso-cli-2
+npm install -g expresso-cli
 ```
 
 Or use it directly with npx without installing:
 
 ```bash
-npx expresso-cli-2 <project-name>
+npx expresso-cli <project-name>
 ```
 
 ## Usage
@@ -21,7 +24,7 @@ npx expresso-cli-2 <project-name>
 Create a new Express project with the following command:
 
 ```bash
-npx expresso-cli-2 my-app
+npx expresso-cli my-app
 ```
 
 This will generate a new directory `my-app` with a fully scaffolded Express + TypeScript + Prisma + SQLite project.
@@ -82,14 +85,11 @@ my-app/
 
 ## Contributing
 
-Contributions are welcome! To contribute:
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details on how to get started.
 
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and ensure tests pass (`npm test`).
-4. Submit a pull request with a clear description of your changes.
+## Changelog
 
-Please follow the existing code style and include tests for new functionality.
+See the [CHANGELOG](CHANGELOG.md) for a history of changes and releases.
 
 ## License
 
@@ -97,4 +97,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Code of Conduct
 
-Please note that this project adheres to a Code of Conduct. By participating, you are expected to uphold this code. See the [CODE_OF_CONDUCT](CODE_OF_CONDUCT) file for more information.
+Please note that this project adheres to a Code of Conduct. By participating, you are expected to uphold this code. See the [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md) file for more information.
