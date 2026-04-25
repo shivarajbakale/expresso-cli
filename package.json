@@ -4,7 +4,7 @@
   "description": "Ralph workspace. Each run creates a branch under `ralph/<slug>/<runId>`; merge into `main` to keep work.",
   "main": "dist/cli.js",
   "bin": {
-    "express-scaffold": "dist/cli.js"
+    "expresso": "dist/cli.js"
   },
   "scripts": {
     "build": "tsc",
